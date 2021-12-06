@@ -104,9 +104,12 @@
             Get in <br />
             <span> touch.</span>
           </h2>
-          <form>
+          <form action="https://formspree.io/f/mwkadrke"
+          method="POST">
             <label for="email">Your Email:</label>
-            <input type="email" id="email" required />
+            <input type="email" id="email" name="_replyto" required />
+            <label for="message">Your Message:</label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
             <button type="submit">Submit</button>
           </form>
         </div>
