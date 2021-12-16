@@ -196,6 +196,11 @@ nav {
   font-family: "Great Vibes", cursive;
   padding: 4rem;
 }
+
+.about-text a {
+  color: white;
+}
+
 .about-image {
   flex: 1 1 40rem;
   position: relative;
